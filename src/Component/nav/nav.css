@@ -1,0 +1,47 @@
+#nav {
+    /* background: #2195e9; */
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    /* position: relative; */
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+    border: 1px solid #12f7ff;
+}
+
+#nav a {
+    background: transparent;
+    padding: 0.7rem;
+    border-radius: 50%;
+    display: flex;
+    color: #12f7ff;
+    font-size: 1.1rem;
+
+}
+
+
+#nav a.active {
+    box-shadow: 5px 5px 5px #12f7ff;
+}
+
+/* =================== light mode ==================== */
+#light #nav {
+    border: 1px solid #1aa9ae;
+}
+
+#light #nav a {
+    color: #1b777a;
+}
+
+#light #nav a.active {
+    box-shadow: 5px 5px 5px#1aa9ae;
+}
+
+/* =================== MEDIA QUERIES (SMALL DEVICES) ==================== */

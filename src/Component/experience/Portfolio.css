@@ -1,0 +1,89 @@
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+}
+
+.portfolio__item {
+    /* background: rgb(11, 128, 224); */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    border-radius: 1.5rem;
+    border: 1px solid #12f7ff;
+    transition: var(--transition);
+    text-align: left;
+}
+
+.portfolio__item:hover {
+    /* background-color: rgb(32, 165, 241); */
+    box-shadow: 5px 5px 10px #12f7ff;
+    font-size: 15px;
+}
+
+.portfolio__item-image {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+
+.portfolio__item h3 {
+    margin: 1.2rem 0 2rem;
+
+}
+
+.portfolio__item-cta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio__item-cta a {
+    width: 100%;
+    text-align: center;
+}
+
+/* =================== light mode ==================== */
+#light .portfolio__item {
+    border: 1px solid#1aa9ae;
+}
+
+#light .portfolio__item:hover {
+    box-shadow: 5px 5px 10px #1aa9ae;
+}
+
+/* =================== MEDIA QUERIES (MEDIA DEVICES) ==================== */
+
+@media screen and (max-width:1024px) {
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        /* gap: 1rem; */
+        /* margin-right: 8.5rem; */
+    }
+
+    .portfolio__item {
+        overflow: hidden;
+
+    }
+}
+
+/* =================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+
+@media screen and (max-width:600px) {
+    .portfolio__container {
+        grid-template: 1fr;
+        /* gap: 1; */
+        /* width: 100%; */
+        /* margin-right: 3rem; */
+
+
+    }
+
+    .portfolio__item {
+        overflow: hidden;
+
+    }
+
+}

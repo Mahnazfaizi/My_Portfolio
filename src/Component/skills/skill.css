@@ -1,0 +1,84 @@
+.skill__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.skill__container>div {
+    border-radius: 2rem;
+    border: 1px solid #12f7ff;
+    padding: 2.4rem 5rem;
+    text-align: left;
+}
+
+.skill__container>div:hover {
+    /* background-color: rgb(32, 165, 241); */
+    box-shadow: 5px 5px 10px #12f7ff;
+    font-size: 14px;
+
+}
+
+
+.container .skill__box {
+    width: 100%;
+    margin: 25px 0;
+
+}
+
+.skill__box .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.tooltip {
+    float: right;
+}
+
+.title {
+    float: left;
+}
+
+.skill__cir {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+
+}
+
+/* =================== light mode ==================== */
+#light .skill__container>div {
+    border: 1px solid#1aa9ae;
+}
+
+#light .skill__container>div:hover {
+    box-shadow: 5px 5px 10px#1aa9ae;
+}
+
+/* =================== MEDIA QUERIES (MEDIA DEVICES) ==================== */
+
+@media screen and (max-width:1024px) {
+    .skill__container {
+        grid-template-columns: 1fr;
+        gap: 1;
+    }
+
+}
+
+/* =================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+
+@media screen and (max-width:600px) {
+    .skill__container {
+        gap: 1rem;
+    }
+
+    .skill__container>div {
+        /* width: 100%; */
+        padding: 2rem 1rem;
+        /* padding-left: 4rem;
+       padding-right: 4rem; */
+
+    }
+}

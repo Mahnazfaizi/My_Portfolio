@@ -1,0 +1,11 @@
+.react-switch .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.react-switch .icon {
+    font-size: 20px; /* Adjust the size as needed */
+    color: white; /* Customize the color */
+}

@@ -1,0 +1,77 @@
+{
+    "greeting": "Hello It's",
+    "my_portfolio": "My Portfolio",
+    "name": "I'm Mahnaz",
+    "job": "A Web developer.",
+    "about_me": "More About Me",
+    "lets_talk": "Let's Talk",
+    "get_to_know_me": "Get To Know Me",
+    "about_me_page" : "About Me",
+    "awards_1_title": "Awards",
+    "award_1_number" : "15+ Awards Won",
+    "award_1_year": "2015 - 2023",
+    "Certificate_1_title": "Certificates",
+    "Certificate_1_number" : "20+ Certificates",
+    "Certificate_1_year": "2015 - 2023",
+    "achievements" : "Achievements",
+    "achievements_desc" : "Intern at Asoda Awar and CS OF CS",
+    "achievements_year" : "2018 - 2020",
+    "about_me_description": "Hello! It's Me(Mahnaz Faizi) I'm 20-years-old. dynamo hailing from the cute land Herat, Afghanistan. I'm a web designer, a devoted person who has been in love with programming . I have been developing my talents, engrossed in the exciting world of web development. I'm eager to add my Knowledge to the front-end and back-end development industries, which is always changing.",
+    "Download_CV" : "Download CV",
+    "skills" : "The Skills I Have",
+    "my_skills" : "My Skills",
+    "front_end" : "Front-End development",
+    "back_end" : "Back-End development",
+    "Home": "Home",
+    "About": "About",
+    "Skills": "Skills",
+    "Portfolio": "Portfolio",
+    "Contact": "Contact",
+    "small_desc_footer" : "MAHNAZ Portfolio Website",
+    "Get_in_touch" : "Get In Touch",
+    "contact_me" : "Contact Me",
+    "email_text" : "Email",
+    "email": "Mahnazfaizi1398@gmail.com",
+    "send_message" : "Send Message",
+    "message" : "Messager",
+    "fullname": "Mahnaz Faizi",
+    "whatsapp" : "WhatsApp",
+    "number" : "+93 787 561943",
+    "exact_location" : "This is the exact location.",
+    "portfolio" : "Portfolio",
+    "my_works" : "My Works",
+    "github" : "Github",
+    "projects" : [
+        {
+            "id" : 0,
+            "title" :"1.Dice Game: A thrilling web game crafted using JavaScript, HTML, and CSS."
+          },
+          
+          {
+            "id" : 1,
+            "title" :"React Museum Website:  museum experience, meticulously crafted using React.js"
+          },
+          {
+            "id" : 2,
+            "title" :"Simon-Game: This classic Simon game recreated using JavaScript, HTML, and CSS"
+          },
+          {
+            "id" : 3,
+            "title" :"Bootstrap Service Project: A visually appealing project built using Bootstrap 4"
+           
+          },
+          {
+            "id" : 4,
+            "title" :"CRUD App: A robust application developed with PHP and MySQL,(Create,Read,Update,Delete)"
+          },
+          {
+            "id" : 5,
+            "title" :"Watch Shop Website: A stylish online storefront designed with HTML and CSS"
+          }
+    ]
+
+    
+    
+
+
+}

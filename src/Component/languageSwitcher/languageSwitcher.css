@@ -1,0 +1,32 @@
+button {
+    border: 1px solid white;
+    margin: 1px;
+    float: right;
+
+}
+
+.selected {
+    border: 1px solid #12f7ff;
+
+}
+
+.selected {
+    background-color: #000;
+
+}
+
+.languageChanger {
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+}
+
+#light button {
+    color: #1aa9ae;
+    border: 1px solid #1aa9ae;
+    margin: 1px;
+    color: #1aa9ae;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    background-color: #12f7ff10;
+    float: right;
+}
