@@ -116,7 +116,15 @@
 
 @media screen and (max-width:600px) {
 
+    .about__me {
+        height: 90%;
+        margin: 0 auto 7rem;
+    }
 
+    .about__me-image {
+        height: 100%;
+        width: 100%;
+    }
     .about__me-image {
         height: 100%;
         width: 100%;
