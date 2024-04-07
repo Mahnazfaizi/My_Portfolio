@@ -128,14 +128,12 @@
   .about__content {
     margin-top: 20px; /* Adjust spacing between image and content */
   }
-     .about__cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Distribute items evenly between columns */
+ .about__cards {
+    display: block; /* Change to block layout */
   }
 
   .about__card {
-    width: calc(33.33% - 20px); /* Set width of each card to one-third minus spacing */
+    width: 100%; /* Occupy full width */
     margin-bottom: 20px; /* Add spacing between cards */
   }
 }
