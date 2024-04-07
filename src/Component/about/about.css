@@ -113,40 +113,23 @@
 
 
 /* =================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+@media only screen and (max-width: 768px) {
+  /* Adjust layout for smaller screens */
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
 
-@media screen and (max-width:600px) {
+  .about__me,
+  .about__content {
+    width: 100%;
+  }
 
-    .about__me {
-        height: 90%;
-        margin: 0 auto 7rem;
-    }
-
-    .about__me-image {
-        height: 100%;
-        width: 100%;
-    }
-    .about__me-image {
-        height: 100%;
-        width: 100%;
-    }
-
-    .about__cards {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        /* margin-right: 8rem; */
-        /* margin-left: 3rem; */
-        margin-top: -2rem;
-    }
-
-    .about__content {
-        text-align: center;
-
-    }
-
-    .about__content p {
-        margin: 1.5rem 0;
-
-    }
-
-
+  .about__content {
+    margin-top: 20px; /* Adjust spacing between image and content */
+  }
 }
+
+
+
+
